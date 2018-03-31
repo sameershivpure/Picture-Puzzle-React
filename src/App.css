@@ -1,0 +1,66 @@
+.App {
+  text-align: center;
+}
+
+.header {
+  background-color: #ccc;
+  height: 20%;
+  padding: 20px;
+  margin-bottom: 2%;
+  text-align: center;
+}
+
+h2{
+  font-size: medium;
+  padding-top: 3%;
+}
+
+.upBtn{
+  align-items: center;
+  justify-content: center;
+}
+
+.ori{
+  height: all;
+  margin:auto;
+}
+
+.puzzle_set{
+  overflow: auto;
+  margin-top: 5%;
+}
+
+input[type='file']{
+  width:11%;
+
+}
+.hidden{
+  display: none;
+}
+
+td{
+  border: solid 1px;
+  padding: 0px;
+  margin: 0;
+}
+
+table{
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+
+.img-set{
+  margin: 1%;
+  border : 1px solid;
+  box-shadow: inset;
+}
+
+.pass{
+  color: green;
+  font-size: x-large;
+}
+
+.fail{
+  color: red;
+  font-size: x-large;
+}
